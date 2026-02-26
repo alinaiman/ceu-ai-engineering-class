@@ -428,13 +428,13 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "boto3" },
-    { name = "chainlit" },
-    { name = "chromadb" },
-    { name = "jupyter" },
-    { name = "litellm" },
-    { name = "openai-agents", specifier = ">=0.7,<0.8" },
-    { name = "pysqlite3" },
+    { name = "boto3", specifier = "==1.42.54" },
+    { name = "chainlit", specifier = "==2.9.6" },
+    { name = "chromadb", specifier = "==1.0.21" },
+    { name = "jupyter", specifier = "==1.1.1" },
+    { name = "litellm", specifier = "==1.81.14" },
+    { name = "openai-agents", specifier = "==0.7.0" },
+    { name = "pysqlite3", specifier = "==0.6.0" },
 ]
 
 [[package]]

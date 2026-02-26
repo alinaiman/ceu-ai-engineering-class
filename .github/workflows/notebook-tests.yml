@@ -26,6 +26,6 @@ jobs:
         env:
           OPENAI_AGENTS_DISABLE_TRACING: "1"
       - name: Run RAG notebook
-        run: jupyter nbconvert --to notebook --execute notebooks/4_rag.ipynb --output /dev/null
+        run: jupyter nbconvert --to notebook --execute notebooks/5_rag.ipynb --output /dev/null
         env:
           OPENAI_AGENTS_DISABLE_TRACING: "1"
